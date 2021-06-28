@@ -27,8 +27,9 @@ var nome = function (alimento) {
     }
 }
 console.log(nome("Pipoca"))
+//Função que o usuário escolhe o prato
 
-var incremento = function (n1) {
+var incremento = function (n1) { 
     let escolha = alimento.Brigadeiro
     if ( n1> (2*escolha) && n1<= (3*escolha)){
         return `A comida queimou!`
@@ -43,4 +44,7 @@ var incremento = function (n1) {
     return `O seu prato está pronto! Bom apetite!`
     }
     }
-console.log(incremento(10));
+//Função com as condicionais
+console.log(incremento(12));
+
+
